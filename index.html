@@ -7,77 +7,98 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
   <style>
-    /* Add basic styling directly for convenience */
+    /* General Styling */
     body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
+      font-family: 'Georgia', serif;
+      line-height: 1.8;
       margin: 0;
       padding: 0;
-      color: #333;
-      background-color: #f9f9f9;
+      color: #2c2c2c;
+      background-color: #f4f4f4;
     }
 
+    /* Header */
     header {
-      background: linear-gradient(to right, #4caf50, #81c784);
-      color: white;
+      background: linear-gradient(to bottom, #4a4a4a, #2c2c2c);
+      color: #e6e6e6;
       padding: 2rem 1rem;
       text-align: center;
     }
 
     header h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
 
     header p {
-      font-size: 1.2rem;
-      margin-top: 0;
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
     }
 
+    /* Main Section */
     main {
       padding: 2rem 1rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
+      background: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
     }
 
     section {
       margin-bottom: 2rem;
     }
 
-    h2 {
-      font-size: 1.5rem;
+    section h2 {
+      font-size: 1.8rem;
       margin-bottom: 1rem;
-      border-bottom: 2px solid #4caf50;
+      color: #4a4a4a;
+      border-bottom: 3px solid #9a9a9a;
       display: inline-block;
       padding-bottom: 0.3rem;
     }
 
+    section p {
+      margin-top: 1rem;
+    }
+
     ul {
-      list-style-type: disc;
+      list-style-type: square;
       padding-left: 1.5rem;
     }
 
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Button */
     a.button {
       display: inline-block;
       text-decoration: none;
-      color: white;
-      background-color: #4caf50;
+      color: #ffffff;
+      background-color: #4a4a4a;
       padding: 0.8rem 1.5rem;
       border-radius: 5px;
       font-weight: bold;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
 
     a.button:hover {
-      background-color: #388e3c;
+      background-color: #2c2c2c;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
+    /* Footer */
     footer {
       text-align: center;
       padding: 1rem;
-      background: #4caf50;
-      color: white;
+      background: #2c2c2c;
+      color: #e6e6e6;
       margin-top: 2rem;
+    }
+
+    footer p {
+      margin: 0;
     }
   </style>
 </head>
