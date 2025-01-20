@@ -1,6 +1,6 @@
 # N-of-1-Level-Wearable-Data-Analysis
 
-The models presented in this represetory are mainly applied for biometric application. For more information on this work please read []().
+The code and statistical models in this repository are designed primarily for analyzing aggregate and N-of-1 level wearable data, with a focus on maternal health. For more information on this work please read our paper[]().
 
 ## Prerequisites
 
